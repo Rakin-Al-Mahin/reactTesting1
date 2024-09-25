@@ -35,7 +35,7 @@ const AuthForm = () => {
   }, [isSignUp]);
 
   // const domain = "http://localhost:5000";
-  const domain = "http://pengooin-testing-by-rakin-v1.vercel.app";
+  const domain = "https://pengooin-testing-by-rakin-v1.vercel.app";
 
   const fetchZones = async () => {
     try {
