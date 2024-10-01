@@ -1,4 +1,5 @@
 /* eslint-disable no-unused-vars */
+
 import { useState, useEffect } from "react";
 import axios from "axios";
 import SignInForm from "./SignInForm";
@@ -13,7 +14,7 @@ const AuthForm = () => {
   const [zone, setZone] = useState("");
   const [zones, setZones] = useState([]);
   const [error, setError] = useState(null);
-  const [successMessage, setSuccessMessage] = useState(null); // For success messages
+  const [successMessage, setSuccessMessage] = useState(null);
   const [isForgotPassword, setIsForgotPassword] = useState(false);
   const [isResetPassword, setIsResetPassword] = useState(false);
   const [resetToken, setResetToken] = useState("");
